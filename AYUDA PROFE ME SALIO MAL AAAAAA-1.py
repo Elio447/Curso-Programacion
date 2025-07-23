@@ -22,7 +22,7 @@ elif decision1 == "intentar":
     if decision2 == "seguir":
         print("\nContinuas con el curso, es muy complicado, pero lo logras")
         print("Encuentras un trabajo como web designer")
-        decision3 = input("Decides TOMAR el trabajo o RECHAZAR el trabajo> ").lower()
+        decision3 = input("Decides TOMAR el trabajo, RECHAZAR el trabajo o SEGUIR buscando trabajo> ").lower()
         if decision3 == "tomar":
             print("\nTe da una arrechera con un codigo que te salio mal, y mueres por una arrechera")
             print("Buen intento, pero no lograste ganar ¡Intentalo de nuevo!")
@@ -31,6 +31,7 @@ elif decision1 == "intentar":
             print("\nRechazas el trabajo, y terminas siendo un vagabundo en la plaza rafael urdaneta y mueres en una guarimba por un impacto de bala.")
             print("GAME OVER")
         else:
-            print("Respuesta no reconocida, intenta de nuevo")    
+            print("Decidiste seguir buscando trabajo, encuentras trabajo en traki, te explotan laboralmente y mueres por mucho trabajo")
+            print("GAME OVER")    
 else:    
     print("Respuesta no reconocida, intenta de nuevo")
