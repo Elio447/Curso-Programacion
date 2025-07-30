@@ -63,5 +63,5 @@ switch (opcion) {
     let cociente = numero12 / numero2222;
     console.log(`cociente: ${cociente}`)
     
-
+    break;
 }
